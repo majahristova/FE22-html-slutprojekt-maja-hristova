@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header class="header_navemeny">
+        <img src="/images/logo-mayafix.png" alt="logo">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <nav class="navlinks">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="aboutpage.html">About Me</a></li>
+                <li><a href="projectpage.html">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="aboutpage_main_section">
+        <section class="aboutpage_section_text">
+            <h1>ABOUT ME</h1>
+            <p>Hi,My name is Maya, im 23 years old and an Junior Front-end developer.I have over one year of experience
+                in IT, besides that i went to acting school. Studying front-end developer, is only the beginning on my
+                IT journey. As im studying about Blockchain and one day hope to read about AI. This is the beginning of
+                the future</p>
+        </section>
+    </main>
+    <section class="timeline-section">
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>Komvux Grundläggande programmering</h3>
+                    <p>The beggining of my coding journey.      
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 January-May</div>
+                <div class="timeline-content">
+                    <h3>Tech for women </h3>
+                    <p> Learning basic HTML, CSS and Javascript. The course was held online.
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 January-May</div>
+                <div class="timeline-content">
+                    <h3>Coder dojo </h3>
+                    <p>Voulenteering to help children learn programming. Games like flappy bird. Then they learned basic HTML & CSS
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-2024</div>
+                <div class="timeline-content">
+                    <h3>Grit Academy </h3>
+                    <p>Reading Front-end developer at Grit Academy. An yrkeshögskola located in Malmö. The course is 2 years long.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <ul>
+        <li> 
+        Github: majahristova
+        </li>
+        <li>
+          <img src="/images/logo-mayafix.png" alt="logo">
+        </li>
+        <li>
+         Likdin: Maya Hristova Pau
+        </li>
+    </ul>
+    </footer>
+    <script> 
+        const toggleButton = document.getElementsByClassName("toggle-button")[0]
+        const navbarLinks = document.getElementsByClassName("navlinks")[0]
+        toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+            console.log(navbarLinks);
+        })
+    </script>
+</body>
+</html>

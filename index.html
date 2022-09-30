@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header_navemeny">
+        <img src="./images/logo-mayafix.png" alt="logo">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <nav class="navlinks">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./html/aboutpage.html">About Me</a></li>
+                <li><a href="./html/projectpage.html">My projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_page_container_align">
+        <div class="main_page_grid_container">
+            <h1>I make website</h1>
+            <h3> < coder > </h3>
+        </div>
+    </main>
+        <section class="main_page_section_left">
+        </section>
+        <section class="main_page_section_right">
+        </section>
+        <section class="main_page_section_left">
+        </section>
+        <section class="main_page_section_right">
+        </section>
+    </main>
+    <footer class="footer">
+        <ul>
+          <li>
+            Github: majahristova
+          </li>
+          <li>
+            <img src="./images/logo-mayafix.png" alt="logo">
+          </li>
+          <li>
+            Likdin: Maya Hristova Pau
+          </li>
+        </ul>
+      </footer>
+    <script> 
+        const toggleButton = document.getElementsByClassName("toggle-button")[0]
+        const navbarLinks = document.getElementsByClassName("navlinks")[0]
+        toggleButton.addEventListener("click", () => {
+            navbarLinks.classList.toggle("active");
+            console.log(navbarLinks);
+        })
+    </script>
+</body>
+</html>
