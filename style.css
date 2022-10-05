@@ -321,6 +321,7 @@ align-content: center;
 }
 
 /* Atm website*/
+
 .grid_box_one_atmwebsite{
     grid-column: 1/3;
     grid-row: 1/1;
@@ -508,4 +509,3 @@ align-content: center;
     }
     
 }
-/*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
