@@ -328,7 +328,7 @@ align-content: center;
 }
 
 .grid_box_two_atmwebsite{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 2/2;
     
 }
@@ -366,7 +366,7 @@ align-content: center;
 }
 
 .grid_box_two_prdwebsite{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 2/2;
     
 }
@@ -403,7 +403,7 @@ align-content: center;
 }
 
 .grid_box_two_tcwebsite{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 2/2;
     
 }
@@ -442,6 +442,7 @@ align-content: center;
     .navlinks {
         display: none;
         width: 100%;
+        padding-top: 1.875rem;
     }
 
     .header_navemeny {
